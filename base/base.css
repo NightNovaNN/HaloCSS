@@ -1,0 +1,168 @@
+/* Imports */
+@import url('anim.css');
+@import url('body.css');
+@import url('layout.css');
+
+/* ---- CSS Reset ---- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- Root Variables ---- */
+:root {
+    --font-main: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial;
+
+    --bg-main: #0b0d10;
+    --bg-soft: #12151c;
+
+    --text-main: #eaeaf0;
+    --text-soft: #a9afc3;
+
+    --accent: #6cf2ff;
+    --danger: #ff5c5c;
+    --success: #5cff9a;
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    --transition-fast: 120ms ease;
+    --transition-med: 220ms ease;
+}
+
+/* ---- HTML & Body ---- */
+html {
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--font-main);
+    background: var(--bg-main);
+    color: var(--text-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Media Defaults ---- */
+img,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* ---- Links ---- */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---- Buttons ---- */
+button {
+    font-family: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+/* ---- Inputs ---- */
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* ---- Headings ---- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--text-main);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* ---- Text ---- */
+p {
+    color: var(--text-soft);
+}
+
+/* ---- Lists ---- */
+ul,
+ol {
+    list-style: none;
+}
+
+/* ---- HR ---- */
+hr {
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin: 1rem 0;
+}
+
+/* ---- Selection ---- */
+::selection {
+    background: var(--accent);
+    color: #000;
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,33 @@
+/* Import Fonts and files */
+@import url('utils/utils.css');
+@import url('base/base.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.fontsg {
+    font-family: "Space Grotesk" !important;
+}
+
+.fontcode {
+    font-family: "Consolas" !important;
+}
+
+.pad-sm {
+    padding: 0.5rem;
+}
+
+.pad-lg {
+    padding: 1.5rem;
+}
+
+.bg-dark {
+    background: #000;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.round {
+    border-radius: 8px;
+}

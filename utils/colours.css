@@ -1,0 +1,45 @@
+:root {
+    --bg-black: #000;
+    --bg-white: #fff;
+    --bg-soft: aliceblue;
+
+    --text-black: #000;
+    --text-white: #fff;
+    --text-muted: #aaa;
+}
+
+.bgb {
+    background-color: var(--bg-black);
+}
+
+.bgw {
+    background-color: var(--bg-white);
+}
+
+.bgf {
+    background-color: var(--bg-soft);
+}
+
+.txb {
+    color: var(--text-black);
+}
+
+.txw {
+    color: var(--text-white);
+}
+
+.tx-muted {
+    color: var(--text-muted);
+}
+
+.tx-dim {
+    color: #777;
+}
+
+.brd-light {
+    border-color: #ccc;
+}
+
+.brd-dark {
+    border-color: #333;
+}

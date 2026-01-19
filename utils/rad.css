@@ -1,0 +1,33 @@
+/* ---------- Border Radius ---------- */
+
+.rc-0 {
+    border-radius: 0;
+}
+
+.rc-sm {
+    border-radius: 4px;
+}
+
+.rc-md {
+    border-radius: 8px;
+}
+
+.rc-10px {
+    border-radius: 10px;
+}
+
+.rc-30px {
+    border-radius: 30px;
+}
+
+.rc-20p {
+    border-radius: 20%;
+}
+
+.rc-50p {
+    border-radius: 50%;
+}
+
+.rc-pill {
+    border-radius: 9999px;
+}

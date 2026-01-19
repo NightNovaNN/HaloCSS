@@ -1,0 +1,210 @@
+/* Imports */
+@import url('rad.css');
+@import url('btns.css');
+@import url('card.css');
+@import url('colours.css');
+@import url('glass.css');
+
+/* ---- Visibility ---- */
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* ---- Display ---- */
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* ---- Cursor ---- */
+.pointer {
+    cursor: pointer;
+}
+
+.default {
+    cursor: default;
+}
+
+/* ---- Text Selection ---- */
+.no-select {
+    user-select: none;
+}
+
+/* ---- Overflow ---- */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+/* ---- Text Alignment ---- */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* ---- Width / Height ---- */
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.max-w-full {
+    max-width: 100%;
+}
+
+.max-h-full {
+    max-height: 100%;
+}
+
+/* ---- Spacing: Margin ---- */
+.m-0 {
+    margin: 0;
+}
+
+.mt-sm {
+    margin-top: 0.5rem;
+}
+
+.mt-md {
+    margin-top: 1rem;
+}
+
+.mt-lg {
+    margin-top: 1.5rem;
+}
+
+.mb-sm {
+    margin-bottom: 0.5rem;
+}
+
+.mb-md {
+    margin-bottom: 1rem;
+}
+
+.mb-lg {
+    margin-bottom: 1.5rem;
+}
+
+/* ---- Spacing: Padding ---- */
+.p-0 {
+    padding: 0;
+}
+
+.p-sm {
+    padding: 0.5rem;
+}
+
+.p-md {
+    padding: 1rem;
+}
+
+.p-lg {
+    padding: 1.5rem;
+}
+
+/* ---- Position ---- */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
+/* ---- Z-Index ---- */
+.z-0 {
+    z-index: 0;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-50 {
+    z-index: 50;
+}
+
+.z-max {
+    z-index: 9999;
+}
+
+/* ---- Opacity ---- */
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+/* ---- Pointer Events ---- */
+.no-pointer {
+    pointer-events: none;
+}
+
+.pointer-all {
+    pointer-events: all;
+}
+
+/* ---- Border ---- */
+.border {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border-none {
+    border: none;
+}
+
+/* ---- Background Helpers ---- */
+.bg-transparent {
+    background: transparent;
+}
+
+/* ---- Debug ---- */
+.debug {
+    outline: 1px dashed red;
+}

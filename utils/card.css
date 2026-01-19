@@ -1,0 +1,96 @@
+/* ---- Base Card ---- */
+.card {
+    background: var(--card-bg, #181818);
+    color: var(--fg, #ffffff);
+    border-radius: var(--card-radius, 12px);
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+/* ---- Flat Card ---- */
+.card-flat {
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Elevated Card ---- */
+.card-elevated {
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.45),
+        0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+/* ---- Glassmorphism ---- */
+.card-glass {
+    background: rgba(20, 20, 20, 0.55);
+    backdrop-filter: blur(12px) saturate(120%);
+    -webkit-backdrop-filter: blur(12px) saturate(120%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---- Glow Ready ---- */
+.card-halo::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(100, 150, 255, 0.35),
+            transparent);
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* ---- Hover Lift ---- */
+.card-hover {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 16px 40px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Card Sections ---- */
+.card-header {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-footer {
+    margin-top: 0.75rem;
+    opacity: 0.85;
+}
+
+/* ---- Compact Variant ---- */
+.card-sm {
+    padding: 0.75rem;
+    border-radius: 10px;
+}
+
+/* ---- Large Variant ---- */
+.card-lg {
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+/* ---- Full Width ---- */
+.card-full {
+    width: 100%;
+}
+
+/* ---- Accent Border ---- */
+.card-accent {
+    border-left: 3px solid var(--accent, #4da3ff);
+}
