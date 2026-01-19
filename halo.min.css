@@ -479,10 +479,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* Imports */
-@import url('anim.css');
-@import url('body.css');
-@import url('layout.css');
 
 /* ---- CSS Reset ---- */
 *,
@@ -933,12 +929,6 @@ hr {
 .rc-pill {
     border-radius: 9999px;
 }
-/* Imports */
-@import url('rad.css');
-@import url('btns.css');
-@import url('card.css');
-@import url('colours.css');
-@import url('glass.css');
 
 /* ---- Visibility ---- */
 .hidden {
