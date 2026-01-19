@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HaloCSS Playground</title> <!-- HaloCSS -->
+    <link rel="stylesheet" href="halo.css" /> 
+
+</head>
+
+<body class="pf pf-dark"> <!-- Page Wrapper -->
+    <div class="flex flex-col gap-lg p-lg"> <!-- Header -->
+        <header class="card card-glass card-hover">
+            <h1 class="fontsg" style="border-radius: 10px;">🌌 HaloCSS Playground</h1>
+            <p>Utility-first + aura-driven CSS framework test page</p>
+        </header> <!-- Buttons -->
+        <section class="card card-elevated">
+            <h2 class="mb-md">Buttons</h2>
+            <div class="flex wrap gap-md"> <button class="btn btn-solid rc-pill hover-grow">Solid</button> <button
+                    class="btn btn-outline rc-md hover-lift">Outline</button> <button
+                    class="btn btn-ghost rc-md">Ghost</button> <button class="btn btn-solid btn-sm">Small</button>
+                <button class="btn btn-solid btn-md">Medium</button> <button class="btn btn-solid btn-lg">Large</button>
+            </div>
+        </section> <!-- Cards -->
+        <section class="flex wrap gap-lg">
+            <div class="card card-hover accent-blue">
+                <div class="card-header">Default Card</div>
+                <div class="card-body"> Basic card with hover lift. </div>
+            </div>
+            <div class="card card-glass card-halo pulse-glow accent-cyan">
+                <div class="card-header">Glass + Halo</div>
+                <div class="card-body"> Glow + blur + aura ✨ </div>
+            </div>
+            <div class="card card-glass accent-cyan win-glass">
+                <div class="card-header">Glass</div>
+                <div class="card-body"> blur + aura ✨ </div>
+            </div>
+            <div class="card card-flat accent-purple">
+                <div class="card-header">Flat Card</div>
+                <div class="card-body"> No shadow, clean look. </div>
+            </div>
+        </section> <!-- Animations -->
+        <section class="card">
+            <h2 class="mb-md">Animations</h2>
+            <div class="flex gap-md wrap">
+                <div class="card fade-in">Fade In</div>
+                <div class="card slide-up">Slide Up</div>
+                <div class="card scale-in">Scale In</div>
+                <div class="card ping">Ping</div>
+            </div>
+        </section> <!-- Flex & Layout -->
+        <section class="card">
+            <h2 class="mb-md">Flex Utilities</h2>
+            <div class="flex justify-between items-center bg-soft p-md rc-md"> <span>Left</span> <span>Center</span>
+                <span>Right</span> </div>
+        </section> <!-- Themes -->
+        <section class="card">
+            <h2 class="mb-md">Theme Presets</h2>
+            <div class="flex wrap gap-md">
+                <div class="card pf-dark">pf-dark</div>
+                <div class="card pf-light">pf-light</div>
+                <div class="card pf-code">pf-code</div>
+                <div class="card pf-void">pf-void</div>
+                <div class="card pf-paper">pf-paper</div>
+            </div>
+        </section> <!-- Text & Utilities -->
+        <section class="card">
+            <h2 class="mb-md">Text & Utilities</h2>
+            <p class="tx-muted">Muted text</p>
+            <p class="tx-dim">Dim text</p>
+            <p class="txw bg-dark p-sm rc-sm inline-block">White on dark</p>
+            <div class="mt-md"> <span class="debug p-sm">Debug outline</span> </div>
+        </section> <!-- Footer -->
+        <footer class="card card-sm text-center opacity-75"> Built with 🌀 HaloCSS </footer>
+    </div>
+</body>
+
+</html>
